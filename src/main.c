@@ -24,7 +24,11 @@ static void VCountIntr(void);
 static void SerialIntr(void);
 static void IntrDummy(void);
 
+#if defined(RANDOM_GAME)
+const u8 gGameVersion = SAPPHIRE ? 2 : 1;
+#else
 const u8 gGameVersion = GAME_VERSION;
+#endif
 const u8 gGameLanguage = GAME_LANGUAGE;
 
 // International versions of the debug menu use a different format.
