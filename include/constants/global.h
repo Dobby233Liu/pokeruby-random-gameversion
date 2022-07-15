@@ -34,7 +34,7 @@
 
 #if defined(RANDOM_GAME)
 #include <random.h>
-#define GAME_VERSION Random() % (VERSION_RUBY + 1)
+#define GAME_VERSION (1 + (Random() % VERSION_RUBY))
 #else
 #if defined(SAPPHIRE)
 #define GAME_VERSION (VERSION_SAPPHIRE)
