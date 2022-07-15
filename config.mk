@@ -23,7 +23,13 @@ ifeq ($(GAME_VERSION), SAPPHIRE)
   TITLE      := POKEMON SAPP
   GAME_CODE  := AXP
 else
+ifeq ($(GAME_VERSION), RANDOM_GAME)
+  BUILD_NAME := rapphire
+  TITLE      := POKEMON RAPP
+  GAME_CODE  := AXV
+else
   $(error unknown version $(GAME_VERSION))
+endif
 endif
 endif
 
