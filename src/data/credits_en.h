@@ -134,14 +134,14 @@ const u8 Text_EBU[] = _("European Blind Union");
 const u8 Text_ABA[] = _("Australian Braille Authority");
 const u8 Text_RNZFotB[] = _("Royal New Zealand Federation for the Blind");
 const u8 Text_CreditsTerminator[] = _("");
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 Text_Version[] = _("{PALETTE 9}POKéMON SAPPHIRE VERSION"); 
 #else
 const u8 Text_Version[] = _("{PALETTE 9}POKéMON RUBY VERSION");
 #endif
 
 const struct CreditsEntry CreditsTerminator[] = {0, Text_CreditsTerminator};
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const struct CreditsEntry CreditsVersion[] = {7, Text_Version};
 #else
 const struct CreditsEntry CreditsVersion[] = {8, Text_Version};

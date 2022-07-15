@@ -31,7 +31,7 @@
 #define VERSION_BANNER_BYTES 0x2000
 #define VERSION_BANNER_LEFT_X 108
 #define VERSION_BANNER_RIGHT_X 172
-#ifdef SAPPHIRE
+#if SAPPHIRE
 #define VERSION_BANNER_Y_GOAL 83
 #else
 #define VERSION_BANNER_Y_GOAL 84
@@ -53,7 +53,7 @@ extern const u16 gTitleScreenLogoShinePalette[];
 
 static EWRAM_DATA u8 gUnknown_0202F7E4 = 0;
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u16 sLegendaryMonPalettes[][16] =
 {
     INCBIN_U16("graphics/title_screen/kyogre_dark.gbapal"),
@@ -329,7 +329,7 @@ static const struct CompressedSpriteSheet sPokemonLogoShineSpriteSheet[] =
 
 #define _RGB(r, g, b) ((((b) & 31) << 10) + (((g) & 31) << 5) + ((r) & 31))
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 //Red Kyogre markings
 #define LEGENDARY_MARKING_COLOR(c) RGB((c), 0, 0)
 #else

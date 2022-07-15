@@ -53,7 +53,7 @@ const u8 gBirchText_Boy[] = _("BOY");
 const u8 gBirchText_Girl[] = _("GIRL");
 const u8 gBirchText_NewName[] = _("NEW NAME");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gDefaultBoyName1[] = _("SEAN");
 #else
 const u8 gDefaultBoyName1[] = _("LANDON");
@@ -62,7 +62,7 @@ const u8 gDefaultBoyName2[] = _("TERRY");
 const u8 gDefaultBoyName3[] = _("SETH");
 const u8 gDefaultBoyName4[] = _("TOM");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gDefaultGirlName1[] = _("MARINA");
 #else
 const u8 gDefaultGirlName1[] = _("TERRA");
@@ -981,7 +981,7 @@ const u8 gBirchText_Boy[] = _("JUNGE");
 const u8 gBirchText_Girl[] = _("MÄDEL");
 const u8 gBirchText_NewName[] = _("NEUER NAME");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gDefaultBoyName1[] = _("SEBOLD");
 #else
 const u8 gDefaultBoyName1[] = _("ROLAND");
@@ -990,7 +990,7 @@ const u8 gDefaultBoyName2[] = _("DANIEL");
 const u8 gDefaultBoyName3[] = _("HELGE");
 const u8 gDefaultBoyName4[] = _("JAN");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gDefaultGirlName1[] = _("MARTINA");
 #else
 const u8 gDefaultGirlName1[] = _("PETRA");

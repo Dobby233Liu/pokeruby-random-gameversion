@@ -255,7 +255,7 @@ static const struct CreditsEntry CreditsFord[] = {0, Text_Ford};
 static const struct CreditsEntry CreditsBarlow[] = {0, Text_Barlow};
 static const struct CreditsEntry CreditsUyama[] = {0, Text_Uyama};
 static const struct CreditsEntry CreditsEBU[] = {0, Text_EBU};
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const struct CreditsEntry CreditsVersion[] = {0, Text_Version_Sapphire};
 #else
 static const struct CreditsEntry CreditsVersion[] = {0, Text_Version_Ruby};

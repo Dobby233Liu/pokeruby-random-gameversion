@@ -32,6 +32,12 @@
 #define GAME_LANGUAGE (LANGUAGE_GERMAN)
 #endif
 
+#if !defined(SAPPHIRE)
+#define SAPPHIRE Random() % 2 ? true : false
+#endif
+#if !defined(RUBY)
+#define RUBY Random() % 2 ? true : false
+#endif
 #if defined(RANDOM_GAME)
 #include <random.h>
 #define GAME_VERSION (1 + (Random() % VERSION_RUBY))

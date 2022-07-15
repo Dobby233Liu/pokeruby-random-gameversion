@@ -22,7 +22,7 @@
 #define LANGUAGE_MASK 0x4
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 #define VERSION_MASK 0x100
 #else
 #define VERSION_MASK 0x80

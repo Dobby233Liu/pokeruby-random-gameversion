@@ -212,7 +212,7 @@ static const u8 DexDescription_Arbok_2[] = _(
   "foe, escaping its crunching embrace is\n"
   "impossible.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Pikachu_1[] = _(
   "This POKéMON has electricity-storing\n"
   "pouches on its cheeks. These appear to\n"
@@ -232,7 +232,7 @@ static const u8 DexDescription_Pikachu_2[] = _(
   "mistook the intensity of its charge.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Raichu_1[] = _(
   "This POKéMON exudes a weak electrical\n"
   "charge from all over its body that makes\n"
@@ -250,7 +250,7 @@ static const u8 DexDescription_Raichu_2[] = _(
   "found near this POKéMON's nest.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sandshrew_1[] = _(
   "SANDSHREW has a very dry hide that is\n"
   "extremely tough. The POKéMON can roll\n"
@@ -268,7 +268,7 @@ static const u8 DexDescription_Sandshrew_2[] = _(
   "from its enemies.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sandslash_1[] = _(
   "SANDSLASH can roll up its body as if it\n"
   "were a ball covered with large spikes.\n"
@@ -353,7 +353,7 @@ static const u8 DexDescription_Clefable_2[] = _(
   "It is known to take strolls on lakes on\n"
   "quiet, moonlit nights.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Vulpix_1[] = _(
   "Inside VULPIX's body burns a flame that\n"
   "never goes out. During the daytime,\n"
@@ -373,7 +373,7 @@ static const u8 DexDescription_Vulpix_2[] = _(
   "curled.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Ninetales_1[] = _(
   "Legend has it that NINETALES came into\n"
   "being when nine wizards possessing\n"
@@ -391,7 +391,7 @@ static const u8 DexDescription_Ninetales_2[] = _(
   "thousand years.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Jigglypuff_1[] = _(
   "When this POKéMON sings, it never\n"
   "pauses to breathe. If it is in a battle\n"
@@ -409,7 +409,7 @@ static const u8 DexDescription_Jigglypuff_2[] = _(
   "make its foes most drowsy.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wigglytuff_1[] = _(
   "WIGGLYTUFF's body is very flexible.\n"
   "By inhaling deeply, this POKéMON can\n"
@@ -427,7 +427,7 @@ static const u8 DexDescription_Wigglytuff_2[] = _(
   "eyes, it is quickly washed away.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Zubat_1[] = _(
   "ZUBAT avoids sunlight because exposure\n"
   "causes it to become unhealthy.\n"
@@ -445,7 +445,7 @@ static const u8 DexDescription_Zubat_2[] = _(
   "become slightly burned.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Golbat_1[] = _(
   "GOLBAT bites down on prey with its four\n"
   "fangs and drinks the victim's blood.\n"
@@ -463,7 +463,7 @@ static const u8 DexDescription_Golbat_2[] = _(
   "skies, seeking fresh blood.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Oddish_1[] = _(
   "ODDISH searches for fertile, nutrient-\n"
   "rich soil, then plants itself.\n"
@@ -482,7 +482,7 @@ static const u8 DexDescription_Oddish_2[] = _(
   "its leaves become.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Gloom_1[] = _(
   "From its mouth GLOOM drips honey that\n"
   "smells absolutely horrible.\n"
@@ -501,7 +501,7 @@ static const u8 DexDescription_Gloom_2[] = _(
   "stinky aroma.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Vileplume_1[] = _(
   "VILEPLUME has the world's largest\n"
   "petals. They are used to attract prey\n"
@@ -519,7 +519,7 @@ static const u8 DexDescription_Vileplume_2[] = _(
   "pretty they may be.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 #if REVISION >= 1
 static const u8 DexDescription_Paras_1[] = _(
   "PARAS has parasitic mushrooms growing\n"
@@ -618,7 +618,7 @@ static const u8 DexDescription_Persian_2[] = _(
   "vicinity. It becomes docile if grabbed\n"
   "by the whiskers.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Psyduck_1[] = _(
   "If it uses its mysterious power,\n"
   "PSYDUCK can't remember having done so.\n"
@@ -638,7 +638,7 @@ static const u8 DexDescription_Psyduck_2[] = _(
   "among scholars.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Golduck_1[] = _(
   "GOLDUCK is the fastest swimmer among\n"
   "all POKéMON. It swims effortlessly, even\n"
@@ -716,7 +716,7 @@ static const u8 DexDescription_Poliwrath_2[] = _(
   "can swim back and forth across the\n"
   "Pacific Ocean without effort.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Abra_1[] = _(
   "ABRA needs to sleep for eighteen hours\n"
   "a day. If it doesn't, this POKéMON loses\n"
@@ -734,7 +734,7 @@ static const u8 DexDescription_Abra_2[] = _(
   "immediately teleports to safety.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Kadabra_1[] = _(
   "KADABRA holds a silver spoon in its\n"
   "hand. The spoon is used to amplify the\n"
@@ -753,7 +753,7 @@ static const u8 DexDescription_Kadabra_2[] = _(
   "of this POKéMON.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Alakazam_1[] = _(
   "ALAKAZAM's brain continually grows,\n"
   "infinitely multiplying brain cells.\n"
@@ -772,7 +772,7 @@ static const u8 DexDescription_Alakazam_2[] = _(
   "its psychokinetic power instead.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Machop_1[] = _(
   "MACHOP exercises by hefting around\n"
   "a GRAVELER as if it were a barbell.\n"
@@ -790,7 +790,7 @@ static const u8 DexDescription_Machop_2[] = _(
   "hurl a hundred adult humans.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Machoke_1[] = _(
   "MACHOKE undertakes bodybuilding every\n"
   "day even as it helps people with tough,\n"
@@ -809,7 +809,7 @@ static const u8 DexDescription_Machoke_2[] = _(
   "on just one finger.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Machamp_1[] = _(
   "MACHAMP is known as the POKéMON that\n"
   "has mastered every kind of martial arts.\n"
@@ -854,7 +854,7 @@ static const u8 DexDescription_Victreebel_2[] = _(
   "unsuspecting prey draws near, this\n"
   "POKéMON swallows it whole.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Tentacool_1[] = _(
   "TENTACOOL absorbs sunlight and\n"
   "refracts it using water inside its body\n"
@@ -872,7 +872,7 @@ static const u8 DexDescription_Tentacool_2[] = _(
   "dehydrated, put it back into the sea.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Tentacruel_1[] = _(
   "TENTACRUEL has tentacles that can be\n"
   "freely elongated and shortened at will.\n"
@@ -891,7 +891,7 @@ static const u8 DexDescription_Tentacruel_2[] = _(
   "waves around it.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Geodude_1[] = _(
   "When GEODUDE sleeps deeply, it buries\n"
   "itself halfway into the ground.\n"
@@ -910,7 +910,7 @@ static const u8 DexDescription_Geodude_2[] = _(
   "remain hard, craggy, and rough always.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Graveler_1[] = _(
   "Rocks are GRAVELER's favorite food.\n"
   "This POKéMON will climb a mountain from\n"
@@ -929,7 +929,7 @@ static const u8 DexDescription_Graveler_2[] = _(
   "a ton of rocks on a daily basis.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Golem_1[] = _(
   "GOLEM is known for rolling down from\n"
   "mountains. To prevent them from rolling\n"
@@ -981,7 +981,7 @@ static const u8 DexDescription_Slowbro_2[] = _(
   "This causes SLOWBRO to grudgingly swim\n"
   "and catch prey instead.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Magnemite_1[] = _(
   "MAGNEMITE floats in the air by emitting\n"
   "electromagnetic waves from the units\n"
@@ -1001,7 +1001,7 @@ static const u8 DexDescription_Magnemite_2[] = _(
   "clinging to the breaker box.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Magneton_1[] = _(
   "MAGNETON emits a powerful magnetic\n"
   "force that is fatal to electronics and\n"
@@ -1028,7 +1028,7 @@ static const u8 DexDescription_Farfetchd_2[] = _(
   "This POKéMON has been known to fight\n"
   "with others over sticks.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Doduo_1[] = _(
   "DODUO's two heads contain completely\n"
   "identical brains.\n"
@@ -1047,7 +1047,7 @@ static const u8 DexDescription_Doduo_2[] = _(
   "enemies while the other one sleeps.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Dodrio_1[] = _(
   "Apparently, the heads aren't the only\n"
   "parts of the body that DODRIO has\n"
@@ -1082,7 +1082,7 @@ static const u8 DexDescription_Dewgong_2[] = _(
   "a glacier was mistakenly thought to be\n"
   "a mermaid by a mariner long ago.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Grimer_1[] = _(
   "GRIMER emerged from the sludge that\n"
   "settled on a polluted seabed.\n"
@@ -1100,7 +1100,7 @@ static const u8 DexDescription_Grimer_2[] = _(
   "drink filthy wastewater.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Muk_1[] = _(
   "This POKéMON's favorite food is\n"
   "anything that is repugnantly filthy.\n"
@@ -1203,7 +1203,7 @@ static const u8 DexDescription_Kingler_2[] = _(
   "However, because the claw is so heavy,\n"
   "the POKéMON quickly tires.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Voltorb_1[] = _(
   "VOLTORB is extremely sensitive - it\n"
   "explodes at the slightest of shocks.\n"
@@ -1222,7 +1222,7 @@ static const u8 DexDescription_Voltorb_2[] = _(
   "mystery.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Electrode_1[] = _(
   "One of ELECTRODE's characteristics is\n"
   "its attraction to electricity.\n"
@@ -1299,7 +1299,7 @@ static const u8 DexDescription_Lickitung_2[] = _(
   "things by texture and by taste.\n"
   "It is somewhat put off by sour things.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Koffing_1[] = _(
   "KOFFING embodies toxic substances.\n"
   "It mixes the toxins with raw garbage to\n"
@@ -1318,7 +1318,7 @@ static const u8 DexDescription_Koffing_2[] = _(
   "round body, then explode.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Weezing_1[] = _(
   "WEEZING alternately shrinks and\n"
   "inflates its twin bodies to mix together\n"
@@ -1338,7 +1338,7 @@ static const u8 DexDescription_Weezing_2[] = _(
   "go through the trash.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Rhyhorn_1[] = _(
   "RHYHORN's brain is very small. It is so\n"
   "dense, while on a run it forgets why it\n"
@@ -1357,7 +1357,7 @@ static const u8 DexDescription_Rhyhorn_2[] = _(
   "the collision the next day, however.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Rhydon_1[] = _(
   "RHYDON has a horn that serves as a\n"
   "drill. It is used for destroying rocks\n"
@@ -1403,7 +1403,7 @@ static const u8 DexDescription_Kangaskhan_2[] = _(
   "be in the area, and it will become\n"
   "violently enraged at you.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Horsea_1[] = _(
   "If HORSEA senses danger, it will\n"
   "reflexively spray a dense black ink\n"
@@ -1421,7 +1421,7 @@ static const u8 DexDescription_Horsea_2[] = _(
   "to prevent being washed away.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Seadra_1[] = _(
   "SEADRA generates whirlpools by spinning\n"
   "its body. The whirlpools are strong\n"
@@ -1439,7 +1439,7 @@ static const u8 DexDescription_Seadra_2[] = _(
   "poison barbs if they fail to notice it.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Goldeen_1[] = _(
   "GOLDEEN loves swimming wild and free\n"
   "in rivers and ponds.\n"
@@ -1458,7 +1458,7 @@ static const u8 DexDescription_Goldeen_2[] = _(
   "powerfully with its horn.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Seaking_1[] = _(
   "SEAKING is very protective of its eggs.\n"
   "The male and female will take turns\n"
@@ -1476,7 +1476,7 @@ static const u8 DexDescription_Seaking_2[] = _(
   "coloration is at its most beautiful.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Staryu_1[] = _(
   "STARYU apparently communicates with\n"
   "the stars in the night sky by flashing\n"
@@ -1496,7 +1496,7 @@ static const u8 DexDescription_Staryu_2[] = _(
   "in the sky.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Starmie_1[] = _(
   "STARMIE swims through water by\n"
   "spinning its star-shaped body as if it\n"
@@ -1558,7 +1558,7 @@ static const u8 DexDescription_Magmar_2[] = _(
   "heat waves that ignite grass and trees\n"
   "in its surroundings.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Pinsir_1[] = _(
   "PINSIR has a pair of massive horns \n"
   "Protruding from the surface of these\n"
@@ -1585,7 +1585,7 @@ static const u8 DexDescription_Tauros_2[] = _(
   "battle, it will charge at thick trees and\n"
   "knock them down to calm itself.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Magikarp_1[] = _(
   "MAGIKARP is virtually useless in battle\n"
   "as it can only splash around.\n"
@@ -1604,7 +1604,7 @@ static const u8 DexDescription_Magikarp_2[] = _(
   "undertake research into it.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Gyarados_1[] = _(
   "Once GYARADOS goes on a rampage, its\n"
   "ferociously violent blood doesn't calm\n"
@@ -1941,7 +1941,7 @@ static const u8 DexDescription_Ariados_2[] = _(
   "This POKéMON constricts the foe with\n"
   "thin and strong silk webbing.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Crobat_1[] = _(
   "CROBAT sneaks up on its intended prey\n"
   "using wings that barely make a sound.\n"
@@ -1960,7 +1960,7 @@ static const u8 DexDescription_Crobat_2[] = _(
   "tired.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Chinchou_1[] = _(
   "CHINCHOU's two antennas are filled with\n"
   "cells that generate strong electricity.\n"
@@ -1978,7 +1978,7 @@ static const u8 DexDescription_Chinchou_2[] = _(
   "lights to exchange signals with others.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lanturn_1[] = _(
   "LANTURN is known to emit light.\n"
   "If you peer down into the dark sea from\n"
@@ -1998,7 +1998,7 @@ static const u8 DexDescription_Lanturn_2[] = _(
   "the antenna.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Pichu_1[] = _(
   "When PICHU plays with others, it may\n"
   "short out electricity with another\n"
@@ -2025,7 +2025,7 @@ static const u8 DexDescription_Cleffa_2[] = _(
   "POKéMON quench their thirst with the\n"
   "morning dew.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Igglybuff_1[] = _(
   "IGGLYBUFF has a soft and plushy body\n"
   "that feels very much like a marshmallow.\n"
@@ -2060,7 +2060,7 @@ static const u8 DexDescription_Togetic_2[] = _(
   "it is said to appear and share its\n"
   "happiness with that person.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Natu_1[] = _(
   "NATU has a highly developed jumping\n"
   "ability. The POKéMON flaps and leaps\n"
@@ -2078,7 +2078,7 @@ static const u8 DexDescription_Natu_2[] = _(
   "even slightly, it will hop away to safety.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Xatu_1[] = _(
   "XATU is known to stand motionless while\n"
   "staring at the sun all day long.\n"
@@ -2121,7 +2121,7 @@ static const u8 DexDescription_Ampharos_2[] = _(
   "this POKéMON to send signals back and\n"
   "forth with others far away.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Bellossom_1[] = _(
   "A BELLOSSOM grows flowers more\n"
   "beautifully if it has evolved from a\n"
@@ -2139,7 +2139,7 @@ static const u8 DexDescription_Bellossom_2[] = _(
   "the southern lands.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Marill_1[] = _(
   "When fishing for food at the edge of a\n"
   "fast-running stream, MARILL wraps its\n"
@@ -2158,7 +2158,7 @@ static const u8 DexDescription_Marill_2[] = _(
   "aquatic plants.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Azumarill_1[] = _(
   "AZUMARILL can make balloons out of\n"
   "air. It makes these air balloons if it\n"
@@ -2320,7 +2320,7 @@ static const u8 DexDescription_Unown_2[] = _(
   "various UNOWN. Research into this\n"
   "topic is ongoing but nothing is known.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wobbuffet_1[] = _(
   "WOBBUFFET does nothing but endure\n"
   "attacks - it won't attack on its own.\n"
@@ -2340,7 +2340,7 @@ static const u8 DexDescription_Wobbuffet_2[] = _(
   "TRAINERS need to beware of this habit.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Girafarig_1[] = _(
   "GIRAFARIG's rear head contains a tiny\n"
   "brain that is too small for thinking.\n"
@@ -2446,7 +2446,7 @@ static const u8 DexDescription_Shuckle_2[] = _(
   "The berries mix with its body fluids to\n"
   "become a juice.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Heracross_1[] = _(
   "HERACROSS has sharp claws on its feet.\n"
   "These are planted firmly into the\n"
@@ -2491,7 +2491,7 @@ static const u8 DexDescription_Ursaring_2[] = _(
   "through its forest gathering food\n"
   "every day.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Slugma_1[] = _(
   "SLUGMA does not have any blood in its\n"
   "body. Instead, intensely hot magma\n"
@@ -2510,7 +2510,7 @@ static const u8 DexDescription_Slugma_2[] = _(
   "its size.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Magcargo_1[] = _(
   "MAGCARGO's body temperature is\n"
   "approximately 18,000 degrees F.\n"
@@ -2547,7 +2547,7 @@ static const u8 DexDescription_Piloswine_2[] = _(
   "This POKéMON uses its tusks to dig up\n"
   "food that has been buried under ice.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Corsola_1[] = _(
   "Clusters of CORSOLA congregate in warm\n"
   "seas where they serve as ideal hiding\n"
@@ -2598,7 +2598,7 @@ static const u8 DexDescription_Mantine_2[] = _(
   "This POKéMON is not bothered by the\n"
   "REMORAID that hitches rides.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Skarmory_1[] = _(
   "SKARMORY's steel wings become tattered\n"
   "and bashed in from repeated battles.\n"
@@ -2632,7 +2632,7 @@ static const u8 DexDescription_Houndoom_2[] = _(
   "These POKéMON choose their leader by\n"
   "fighting amongst themselves.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Kingdra_1[] = _(
   "KINGDRA sleeps on the seafloor where\n"
   "it is otherwise devoid of life.\n"
@@ -2650,7 +2650,7 @@ static const u8 DexDescription_Kingdra_2[] = _(
   "spiraling ocean currents.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Phanpy_1[] = _(
   "PHANPY uses its long nose to shower\n"
   "itself. When others gather around, they\n"
@@ -2669,7 +2669,7 @@ static const u8 DexDescription_Phanpy_2[] = _(
   "the area has been claimed.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Donphan_1[] = _(
   "If DONPHAN were to tackle with its hard\n"
   "body, even a house could be destroyed.\n"
@@ -2845,7 +2845,7 @@ static const u8 DexDescription_Celebi_2[] = _(
   "appears, a bright and shining future\n"
   "awaits us.");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Treecko_1[] = _(
   "TREECKO is cool, calm, and collected -\n"
   "it never panics under any situation.\n"
@@ -2863,7 +2863,7 @@ static const u8 DexDescription_Treecko_2[] = _(
   "with its thick tail.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Grovyle_1[] = _(
   "This POKéMON adeptly flies from branch\n"
   "to branch in trees.\n"
@@ -2881,7 +2881,7 @@ static const u8 DexDescription_Grovyle_2[] = _(
   "trees in jungles.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sceptile_1[] = _(
   "SCEPTILE has seeds growing on its back.\n"
   "They are said to be bursting with\n"
@@ -2899,7 +2899,7 @@ static const u8 DexDescription_Sceptile_2[] = _(
   "from above or behind.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Torchic_1[] = _(
   "TORCHIC has a place inside its body\n"
   "where it keeps its flame. Give it a hug -\n"
@@ -2918,7 +2918,7 @@ static const u8 DexDescription_Torchic_2[] = _(
   "that leave the foe scorched black.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Combusken_1[] = _(
   "COMBUSKEN battles with the intensely\n"
   "hot flames it spews from its beak and\n"
@@ -2937,7 +2937,7 @@ static const u8 DexDescription_Combusken_2[] = _(
   "kicks in one second.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Blaziken_1[] = _(
   "BLAZIKEN has incredibly strong legs -\n"
   "it can easily clear a 30-story building\n"
@@ -2955,7 +2955,7 @@ static const u8 DexDescription_Blaziken_2[] = _(
   "intensely this POKéMON's wrists burn.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Mudkip_1[] = _(
   "In water, MUDKIP breathes using the\n"
   "gills on its cheeks.\n"
@@ -2974,7 +2974,7 @@ static const u8 DexDescription_Mudkip_2[] = _(
   "place around it without using its eyes.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Marshtomp_1[] = _(
   "MARSHTOMP is much faster at traveling\n"
   "through mud than it is at swimming.\n"
@@ -2992,7 +2992,7 @@ static const u8 DexDescription_Marshtomp_2[] = _(
   "when the ocean tide is low.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Swampert_1[] = _(
   "SWAMPERT predicts storms by sensing\n"
   "subtle differences in the sounds of\n"
@@ -3010,7 +3010,7 @@ static const u8 DexDescription_Swampert_2[] = _(
   "that lets it see even in murky water.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Poochyena_1[] = _(
   "POOCHYENA is an omnivore - it will eat\n"
   "anything. A distinguishing feature is\n"
@@ -3030,7 +3030,7 @@ static const u8 DexDescription_Poochyena_2[] = _(
   "strikes back.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Mightyena_1[] = _(
   "MIGHTYENA travel and act as a pack\n"
   "in the wild. The memory of its life in the\n"
@@ -3048,7 +3048,7 @@ static const u8 DexDescription_Mightyena_2[] = _(
   "sharply pointed fangs.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Zigzagoon_1[] = _(
   "The hair on ZIGZAGOON's back is \n"
   "bristly. It rubs the hard back hair\n"
@@ -3067,7 +3067,7 @@ static const u8 DexDescription_Zigzagoon_2[] = _(
   "that it happens to see.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Linoone_1[] = _(
   "When hunting, LINOONE will make a\n"
   "beeline straight for the prey at a full\n"
@@ -3085,7 +3085,7 @@ static const u8 DexDescription_Linoone_2[] = _(
   "gently curving roads.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wurmple_1[] = _(
   "WURMPLE is targeted by SWELLOW as\n"
   "prey. This POKéMON will try to resist by\n"
@@ -3105,7 +3105,7 @@ static const u8 DexDescription_Wurmple_2[] = _(
   "glass without slipping.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Silcoon_1[] = _(
   "SILCOON was thought to endure hunger\n"
   "and not consume anything before its\n"
@@ -3125,7 +3125,7 @@ static const u8 DexDescription_Silcoon_2[] = _(
   "a small hole.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Beautifly_1[] = _(
   "BEAUTIFLY has a long mouth like a coiled\n"
   "needle, which is very convenient for\n"
@@ -3143,7 +3143,7 @@ static const u8 DexDescription_Beautifly_2[] = _(
   "is sure to come looking for pollen.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Cascoon_1[] = _(
   "If it is attacked, CASCOON remains\n"
   "motionless however badly it may be\n"
@@ -3163,7 +3163,7 @@ static const u8 DexDescription_Cascoon_2[] = _(
   "inside the cocoon.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Dustox_1[] = _(
   "When DUSTOX flaps its wings, a fine\n"
   "dust is scattered all over. This dust is\n"
@@ -3182,7 +3182,7 @@ static const u8 DexDescription_Dustox_2[] = _(
   "leaves off roadside trees for food.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lotad_1[] = _(
   "LOTAD is said to have dwelled on land\n"
   "before. However, this POKéMON is\n"
@@ -3201,7 +3201,7 @@ static const u8 DexDescription_Lotad_2[] = _(
   "on land in search of clean water.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lombre_1[] = _(
   "LOMBRE's entire body is covered by a\n"
   "slippery, slimy film. It feels horribly\n"
@@ -3221,7 +3221,7 @@ static const u8 DexDescription_Lombre_2[] = _(
   "consternation.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Ludicolo_1[] = _(
   "Upon hearing an upbeat and cheerful\n"
   "rhythm, the cells in LUDICOLO's body\n"
@@ -3239,7 +3239,7 @@ static const u8 DexDescription_Ludicolo_2[] = _(
   "outings.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Seedot_1[] = _(
   "SEEDOT looks exactly like an acorn\n"
   "when it is dangling from a tree branch.\n"
@@ -3259,7 +3259,7 @@ static const u8 DexDescription_Seedot_2[] = _(
   "this POKéMON's body becomes.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Nuzleaf_1[] = _(
   "This POKéMON pulls out the leaf on its\n"
   "head and makes a flute with it.\n"
@@ -3277,7 +3277,7 @@ static const u8 DexDescription_Nuzleaf_2[] = _(
   "nose pinched.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Shiftry_1[] = _(
   "SHIFTRY's large fans generate awesome\n"
   "gusts of wind at a speed close to 100\n"
@@ -3296,7 +3296,7 @@ static const u8 DexDescription_Shiftry_2[] = _(
   "the fans it holds.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Taillow_1[] = _(
   "TAILLOW is young - it has only just\n"
   "left its nest. As a result, it sometimes\n"
@@ -3315,7 +3315,7 @@ static const u8 DexDescription_Taillow_2[] = _(
   "it cries loudly if it becomes hungry.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Swellow_1[] = _(
   "SWELLOW is very conscientious about\n"
   "the upkeep of its glossy wings.\n"
@@ -3334,7 +3334,7 @@ static const u8 DexDescription_Swellow_2[] = _(
   "clawed feet, preventing escape.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wingull_1[] = _(
   "WINGULL rides updrafts rising from the\n"
   "sea by extending its long and narrow\n"
@@ -3352,7 +3352,7 @@ static const u8 DexDescription_Wingull_2[] = _(
   "as if it were skating across the sky.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Pelipper_1[] = _(
   "PELIPPER searches for food while in\n"
   "flight by skimming the wave tops.\n"
@@ -3370,7 +3370,7 @@ static const u8 DexDescription_Pelipper_2[] = _(
   "cliffs facing the sea.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Ralts_1[] = _(
   "RALTS has the ability to sense the\n"
   "emotions of people.\n"
@@ -3389,7 +3389,7 @@ static const u8 DexDescription_Ralts_2[] = _(
   "a positive disposition.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Kirlia_1[] = _(
   "KIRLIA uses the horns on its head\n"
   "to amplify its psychokinetic power.\n"
@@ -3408,7 +3408,7 @@ static const u8 DexDescription_Kirlia_2[] = _(
   "powers with its highly developed brain.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Gardevoir_1[] = _(
   "GARDEVOIR has the psychokinetic\n"
   "power to distort the dimensions and\n"
@@ -3427,7 +3427,7 @@ static const u8 DexDescription_Gardevoir_2[] = _(
   "full power.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Surskit_1[] = _(
   "If SURSKIT senses danger, it secretes\n"
   "a thick, sugary syrup from the tip of\n"
@@ -3445,7 +3445,7 @@ static const u8 DexDescription_Surskit_2[] = _(
   "organisms in ponds and lakes.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Masquerain_1[] = _(
   "MASQUERAIN's antennas have eyelike\n"
   "patterns that usually give it an angry\n"
@@ -3464,7 +3464,7 @@ static const u8 DexDescription_Masquerain_2[] = _(
   "a helicopter.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Shroomish_1[] = _(
   "If SHROOMISH senses danger, it shakes\n"
   "its body and scatters spores from the\n"
@@ -3482,7 +3482,7 @@ static const u8 DexDescription_Shroomish_2[] = _(
   "is made up of fallen, rotted leaves.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Breloom_1[] = _(
   "The seeds ringing BRELOOM's tail are\n"
   "made of hardened toxic spores. It is\n"
@@ -3500,7 +3500,7 @@ static const u8 DexDescription_Breloom_2[] = _(
   "boxers to shame.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Slakoth_1[] = _(
   "SLAKOTH's heart beats just once a\n"
   "minute. Whatever happens, it is\n"
@@ -3518,7 +3518,7 @@ static const u8 DexDescription_Slakoth_2[] = _(
   "of just three leaves.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Vigoroth_1[] = _(
   "VIGOROTH is simply incapable of\n"
   "remaining still. Even when it tries to\n"
@@ -3537,7 +3537,7 @@ static const u8 DexDescription_Vigoroth_2[] = _(
   "can't be moving constantly.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Slaking_1[] = _(
   "Wherever SLAKING live, rings of over\n"
   "a yard in diameter appear in grassy\n"
@@ -3556,7 +3556,7 @@ static const u8 DexDescription_Slaking_2[] = _(
   "another spot.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Nincada_1[] = _(
   "NINCADA lives underground. It uses its\n"
   "sharp claws to carve the roots of trees\n"
@@ -3574,7 +3574,7 @@ static const u8 DexDescription_Nincada_2[] = _(
   "as it waits for evolution.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Ninjask_1[] = _(
   "If NINJASK is not trained properly,\n"
   "it will refuse to obey the TRAINER and\n"
@@ -3593,7 +3593,7 @@ static const u8 DexDescription_Ninjask_2[] = _(
   "believed to be invisible.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Shedinja_1[] = _(
   "SHEDINJA is a peculiar POKéMON.\n"
   "It seems to appear unsought in a POKé\n"
@@ -3612,7 +3612,7 @@ static const u8 DexDescription_Shedinja_2[] = _(
   "its hollow body from its back.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Whismur_1[] = _(
   "WHISMUR is very timid. If it starts to\n"
   "cry loudly, it becomes startled by its\n"
@@ -3631,7 +3631,7 @@ static const u8 DexDescription_Whismur_2[] = _(
   "volume.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Loudred_1[] = _(
   "LOUDRED shouts while stamping its feet.\n"
   "After it finishes shouting, this\n"
@@ -3649,7 +3649,7 @@ static const u8 DexDescription_Loudred_2[] = _(
   "loudspeakers.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Exploud_1[] = _(
   "EXPLOUD communicates its feelings to\n"
   "the others by emitting whistle-like\n"
@@ -3667,7 +3667,7 @@ static const u8 DexDescription_Exploud_2[] = _(
   "preparing to let loose a huge bellow.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Makuhita_1[] = _(
   "MAKUHITA has a tireless spirit -\n"
   "it will never give up hope. It eats a lot\n"
@@ -3687,7 +3687,7 @@ static const u8 DexDescription_Makuhita_2[] = _(
   "for evolving.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Hariyama_1[] = _(
   "HARIYAMA's thick body may appear fat,\n"
   "but it is actually a hunk of solid muscle.\n"
@@ -3705,7 +3705,7 @@ static const u8 DexDescription_Hariyama_2[] = _(
   "could snap a telephone pole in two.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Azurill_1[] = _(
   "AZURILL's tail is large and bouncy.\n"
   "It is packed full of the nutrients this\n"
@@ -3724,7 +3724,7 @@ static const u8 DexDescription_Azurill_2[] = _(
   "33 feet.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Nosepass_1[] = _(
   "NOSEPASS had been said to be completely\n"
   "unmoving, with its magnetic nose\n"
@@ -3744,7 +3744,7 @@ static const u8 DexDescription_Nosepass_2[] = _(
   "repel one another.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Skitty_1[] = _(
   "SKITTY is known to chase around\n"
   "playfully after its own tail. In the wild,\n"
@@ -3762,7 +3762,7 @@ static const u8 DexDescription_Skitty_2[] = _(
   "its own tail and become dizzy.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Delcatty_1[] = _(
   "DELCATTY sleeps anywhere it wants\n"
   "without keeping a permanent nest.\n"
@@ -3781,7 +3781,7 @@ static const u8 DexDescription_Delcatty_2[] = _(
   "are completely random.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sableye_1[] = _(
   "SABLEYE digs the ground with sharpened\n"
   "claws to find rocks that it eats.\n"
@@ -3800,7 +3800,7 @@ static const u8 DexDescription_Sableye_2[] = _(
   "darkness.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Mawile_1[] = _(
   "Don't be taken in by this POKéMON's\n"
   "cute face - it's very dangerous. MAWILE\n"
@@ -3831,7 +3831,7 @@ static const u8 DexDescription_Mawile_2[] = _(
 #endif
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Aron_1[] = _(
   "ARON has a body of steel.\n"
   "With one all-out charge, this POKéMON\n"
@@ -3849,7 +3849,7 @@ static const u8 DexDescription_Aron_2[] = _(
   "eating bridges and rails.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lairon_1[] = _(
   "LAIRON feeds on iron contained in\n"
   "rocks and water. It makes its nest on\n"
@@ -3867,7 +3867,7 @@ static const u8 DexDescription_Lairon_2[] = _(
   "springs of delicious water.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Aggron_1[] = _(
   "AGGRON is surprisingly protective\n"
   "of its environment. If its mountain\n"
@@ -3886,7 +3886,7 @@ static const u8 DexDescription_Aggron_2[] = _(
   "territory at all times.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Meditite_1[] = _(
   "MEDITITE heightens its inner energy\n"
   "through meditation. It survives on\n"
@@ -3905,7 +3905,7 @@ static const u8 DexDescription_Meditite_2[] = _(
   "never ends.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Medicham_1[] = _(
   "Through the power of meditation,\n"
   "MEDICHAM developed its sixth sense.\n"
@@ -3925,7 +3925,7 @@ static const u8 DexDescription_Medicham_2[] = _(
   "mountains.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Electrike_1[] = _(
   "ELECTRIKE runs faster than the human\n"
   "eye can follow. The friction from\n"
@@ -3943,7 +3943,7 @@ static const u8 DexDescription_Electrike_2[] = _(
   "explosive acceleration performance.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Manectric_1[] = _(
   "MANECTRIC discharges strong\n"
   "electricity from its mane. The mane is\n"
@@ -3961,7 +3961,7 @@ static const u8 DexDescription_Manectric_2[] = _(
   "creates thunderclouds.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Plusle_1[] = _(
   "When PLUSLE is cheering on its partner,\n"
   "it flashes with electric sparks from all\n"
@@ -3980,7 +3980,7 @@ static const u8 DexDescription_Plusle_2[] = _(
   "its joy.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Minun_1[] = _(
   "MINUN loves to cheer on its partner in\n"
   "battle. It gives off sparks from its\n"
@@ -3999,7 +3999,7 @@ static const u8 DexDescription_Minun_2[] = _(
   "sparks to cheer on its teammates.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Volbeat_1[] = _(
   "VOLBEAT's tail glows like a lightbulb.\n"
   "With other VOLBEAT, it uses its tail to\n"
@@ -4018,7 +4018,7 @@ static const u8 DexDescription_Volbeat_2[] = _(
   "aroma of ILLUMISE.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Illumise_1[] = _(
   "ILLUMISE leads a flight of illuminated\n"
   "VOLBEAT to draw signs in the night sky.\n"
@@ -4037,7 +4037,7 @@ static const u8 DexDescription_Illumise_2[] = _(
   "the night sky.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Roselia_1[] = _(
   "On extremely rare occasions, a ROSELIA\n"
   "is said to appear with its flowers in\n"
@@ -4055,7 +4055,7 @@ static const u8 DexDescription_Roselia_2[] = _(
   "serenity to living things.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Gulpin_1[] = _(
   "Most of GULPIN's body is made up of its\n"
   "stomach - its heart and brain are very\n"
@@ -4073,7 +4073,7 @@ static const u8 DexDescription_Gulpin_2[] = _(
   "special fluid that digests anything.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Swalot_1[] = _(
   "SWALOT has no teeth, so what it\n"
   "eats, it swallows whole, no matter what.\n"
@@ -4092,7 +4092,7 @@ static const u8 DexDescription_Swalot_2[] = _(
   "cavernous mouth.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Carvanha_1[] = _(
   "If anything invades CARVANHA's\n"
   "territory, it will swarm and tear at the\n"
@@ -4110,7 +4110,7 @@ static const u8 DexDescription_Carvanha_2[] = _(
   "sunk by this POKéMON.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sharpedo_1[] = _(
   "SHARPEDO can swim at speeds of up to\n"
   "75 mph by jetting seawater out of its\n"
@@ -4129,7 +4129,7 @@ static const u8 DexDescription_Sharpedo_2[] = _(
   "thoroughly tear apart a supertanker.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wailmer_1[] = _(
   "WAILMER can store water inside its body\n"
   "to transform itself into a ball for\n"
@@ -4148,7 +4148,7 @@ static const u8 DexDescription_Wailmer_2[] = _(
   "out of its nostrils.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wailord_1[] = _(
   "When chasing prey, WAILORD herds them\n"
   "by leaping out of the water and making\n"
@@ -4168,7 +4168,7 @@ static const u8 DexDescription_Wailord_2[] = _(
   "enormous mouth.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Numel_1[] = _(
   "NUMEL stores magma of almost 2,200\n"
   "degrees F within its body. If it gets\n"
@@ -4187,7 +4187,7 @@ static const u8 DexDescription_Numel_2[] = _(
   "cauldron of boiling magma.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Camerupt_1[] = _(
   "The humps on CAMERUPT's back are\n"
   "formed by a transformation of its\n"
@@ -4206,7 +4206,7 @@ static const u8 DexDescription_Camerupt_2[] = _(
   "superheated magma.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Torkoal_1[] = _(
   "TORKOAL generates energy by burning\n"
   "coal. It grows weaker as the fire\n"
@@ -4225,7 +4225,7 @@ static const u8 DexDescription_Torkoal_2[] = _(
   "thick black smoke to beat a retreat.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Spoink_1[] = _(
   "SPOINK keeps a pearl on top of its head.\n"
   "The pearl functions to amplify this\n"
@@ -4243,7 +4243,7 @@ static const u8 DexDescription_Spoink_2[] = _(
   "stops, its heart will stop.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Grumpig_1[] = _(
   "GRUMPIG uses the black pearls on its\n"
   "body to wield its fantastic powers.\n"
@@ -4262,7 +4262,7 @@ static const u8 DexDescription_Grumpig_2[] = _(
   "labored.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Spinda_1[] = _(
   "No two SPINDA are said to have\n"
   "identical spot patterns on their hides.\n"
@@ -4282,7 +4282,7 @@ static const u8 DexDescription_Spinda_2[] = _(
   "dancing.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Trapinch_1[] = _(
   "TRAPINCH is a patient hunter. It digs\n"
   "an inescapable pit in a desert and waits\n"
@@ -4300,7 +4300,7 @@ static const u8 DexDescription_Trapinch_2[] = _(
   "to crush even boulders.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Vibrava_1[] = _(
   "VIBRAVA's wings have not yet\n"
   "completed the process of growing.\n"
@@ -4319,7 +4319,7 @@ static const u8 DexDescription_Vibrava_2[] = _(
   "in people.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Flygon_1[] = _(
   "FLYGON whips up a sandstorm by\n"
   "flapping its wings. The wings create a\n"
@@ -4338,7 +4338,7 @@ static const u8 DexDescription_Flygon_2[] = _(
   "sandstorm while flying.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Cacnea_1[] = _(
   "The more arid and harsh the\n"
   "environment, the more pretty and\n"
@@ -4357,7 +4357,7 @@ static const u8 DexDescription_Cacnea_2[] = _(
   "bring the victim down.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Cacturne_1[] = _(
   "If a traveler is going through a desert\n"
   "in the thick of night, CACTURNE\n"
@@ -4376,7 +4376,7 @@ static const u8 DexDescription_Cacturne_2[] = _(
   "when the temperature drops.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Swablu_1[] = _(
   "SWABLU loves to make things clean.\n"
   "If it spots something dirty, it will wipe\n"
@@ -4394,7 +4394,7 @@ static const u8 DexDescription_Swablu_2[] = _(
   "sits there like a cotton-fluff hat.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Altaria_1[] = _(
   "ALTARIA sings in a gorgeous soprano.\n"
   "Its wings are like cotton clouds.\n"
@@ -4412,7 +4412,7 @@ static const u8 DexDescription_Altaria_2[] = _(
   "experience dreamy wonderment.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Zangoose_1[] = _(
   "ZANGOOSE usually stays on all fours,\n"
   "but when angered, it gets up on its\n"
@@ -4431,7 +4431,7 @@ static const u8 DexDescription_Zangoose_2[] = _(
   "with incredible agility.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Seviper_1[] = _(
   "SEVIPER's swordlike tail serves two\n"
   "purposes - it slashes foes and douses\n"
@@ -4449,7 +4449,7 @@ static const u8 DexDescription_Seviper_2[] = _(
   "edged tail.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lunatone_1[] = _(
   "LUNATONE becomes active around the\n"
   "time of the full moon. Instead of\n"
@@ -4468,7 +4468,7 @@ static const u8 DexDescription_Lunatone_2[] = _(
   "been able to prove this theory so far.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Solrock_1[] = _(
   "Sunlight is the source of SOLROCK's\n"
   "power. It is said to possess the ability\n"
@@ -4486,7 +4486,7 @@ static const u8 DexDescription_Solrock_2[] = _(
   "intensely bright light.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Barboach_1[] = _(
   "BARBOACH's body is covered with a\n"
   "slimy film. If a foe grabs it, this\n"
@@ -4505,7 +4505,7 @@ static const u8 DexDescription_Barboach_2[] = _(
   "for prey to come along.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Whiscash_1[] = _(
   "If WHISCASH goes on a wild rampage,\n"
   "it sets off a quake-like tremor with a\n"
@@ -4524,7 +4524,7 @@ static const u8 DexDescription_Whiscash_2[] = _(
   "earthquake.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Corphish_1[] = _(
   "CORPHISH catches prey with its sharp\n"
   "claws. It has no likes or dislikes when it\n"
@@ -4542,7 +4542,7 @@ static const u8 DexDescription_Corphish_2[] = _(
   "greatly increased its population.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Crawdaunt_1[] = _(
   "CRAWDAUNT molts (sheds) its shell\n"
   "regularly. Immediately after molting,\n"
@@ -4562,7 +4562,7 @@ static const u8 DexDescription_Crawdaunt_2[] = _(
   "making them desolate places.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Baltoy_1[] = _(
   "As soon as it spots others of its kind,\n"
   "BALTOY congregates with them and\n"
@@ -4580,7 +4580,7 @@ static const u8 DexDescription_Baltoy_2[] = _(
   "ruins.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Claydol_1[] = _(
   "CLAYDOL is an enigma that appeared\n"
   "from a clay statue made by an ancient\n"
@@ -4598,7 +4598,7 @@ static const u8 DexDescription_Claydol_2[] = _(
   "levitating.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Lileep_1[] = _(
   "LILEEP is an ancient POKéMON that was\n"
   "regenerated from a fossil. It remains\n"
@@ -4618,7 +4618,7 @@ static const u8 DexDescription_Lileep_2[] = _(
   "shaped like flower petals.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Cradily_1[] = _(
   "CRADILY's body serves as an anchor,\n"
   "preventing it from being washed away in\n"
@@ -4636,7 +4636,7 @@ static const u8 DexDescription_Cradily_2[] = _(
   "tentacles.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Anorith_1[] = _(
   "ANORITH is said to be a type of \n"
   "POKéMON predecessor, with eight wings\n"
@@ -4654,7 +4654,7 @@ static const u8 DexDescription_Anorith_2[] = _(
   "two large claws.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Armaldo_1[] = _(
   "ARMALDO is a POKéMON species that\n"
   "became extinct in prehistoric times.\n"
@@ -4672,7 +4672,7 @@ static const u8 DexDescription_Armaldo_2[] = _(
   "punch right through a steel slab.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Feebas_1[] = _(
   "While FEEBAS's body is in tatters,\n"
   "it has a hardy and tenacious life force\n"
@@ -4691,7 +4691,7 @@ static const u8 DexDescription_Feebas_2[] = _(
   "and in rivers.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Milotic_1[] = _(
   "MILOTIC live at the bottom of large\n"
   "lakes. When this POKéMON's body glows a\n"
@@ -4709,7 +4709,7 @@ static const u8 DexDescription_Milotic_2[] = _(
   "bitter feuding.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Castform_1[] = _(
   "CASTFORM borrows the power of nature\n"
   "to transform itself into the guises of\n"
@@ -4727,7 +4727,7 @@ static const u8 DexDescription_Castform_2[] = _(
   "its tiny body.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Kecleon_1[] = _(
   "KECLEON alters its body coloration to\n"
   "blend in with its surroundings, allowing\n"
@@ -4747,7 +4747,7 @@ static const u8 DexDescription_Kecleon_2[] = _(
   "belly.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Shuppet_1[] = _(
   "SHUPPET grows by feeding on dark\n"
   "emotions, such as vengefulness and \n"
@@ -4766,7 +4766,7 @@ static const u8 DexDescription_Shuppet_2[] = _(
   "of that person's home.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Banette_1[] = _(
   "A cursed energy permeated the stuffing\n"
   "of a discarded and forgotten plush doll,\n"
@@ -4784,7 +4784,7 @@ static const u8 DexDescription_Banette_2[] = _(
   "plush doll that was thrown away.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Duskull_1[] = _(
   "DUSKULL wanders lost among the deep\n"
   "darkness of midnight. There is an oft-\n"
@@ -4803,7 +4803,7 @@ static const u8 DexDescription_Duskull_2[] = _(
   "victim until the break of dawn.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Dusclops_1[] = _(
   "DUSCLOPS absorbs anything, however\n"
   "large the object may be. This POKéMON\n"
@@ -4823,7 +4823,7 @@ static const u8 DexDescription_Dusclops_2[] = _(
   "back out.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Tropius_1[] = _(
   "Children of the southern tropics eat\n"
   "as snacks the fruit that grows in\n"
@@ -4843,7 +4843,7 @@ static const u8 DexDescription_Tropius_2[] = _(
   "of fruit.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Chimecho_1[] = _(
   "In high winds, CHIMECHO cries as it\n"
   "hangs from a tree branch or the eaves\n"
@@ -4862,7 +4862,7 @@ static const u8 DexDescription_Chimecho_2[] = _(
   "the power to knock foes flying.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Absol_1[] = _(
   "ABSOL has the ability to foretell the\n"
   "coming of natural disasters.\n"
@@ -4880,7 +4880,7 @@ static const u8 DexDescription_Absol_2[] = _(
   "disaster POKéMON.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Wynaut_1[] = _(
   "WYNAUT gather on moonlit nights to play\n"
   "by squeezing up against each other.\n"
@@ -4898,7 +4898,7 @@ static const u8 DexDescription_Wynaut_2[] = _(
   "slapping the ground with its tail.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Snorunt_1[] = _(
   "SNORUNT survives by eating only snow\n"
   "and ice.\n"
@@ -4917,7 +4917,7 @@ static const u8 DexDescription_Snorunt_2[] = _(
   "caverns.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Glalie_1[] = _(
   "GLALIE has the ability to freely\n"
   "control ice. For example, it can\n"
@@ -4936,7 +4936,7 @@ static const u8 DexDescription_Glalie_2[] = _(
   "shape it desires.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Spheal_1[] = _(
   "SPHEAL always travels by rolling\n"
   "around on its ball-like body. When the\n"
@@ -4954,7 +4954,7 @@ static const u8 DexDescription_Spheal_2[] = _(
   "their mealtimes are noisy.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Sealeo_1[] = _(
   "SEALEO often balances and rolls\n"
   "things on the tip of its nose. While the\n"
@@ -4974,7 +4974,7 @@ static const u8 DexDescription_Sealeo_2[] = _(
   "on its nose.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Walrein_1[] = _(
   "WALREIN swims all over in frigid\n"
   "seawater while crushing icebergs with\n"
@@ -4992,7 +4992,7 @@ static const u8 DexDescription_Walrein_2[] = _(
   "insulates it from subzero temperatures.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Clamperl_1[] = _(
   "CLAMPERL grows while being protected\n"
   "by its rock-hard shell. When its body\n"
@@ -5011,7 +5011,7 @@ static const u8 DexDescription_Clamperl_2[] = _(
   "over.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Huntail_1[] = _(
   "HUNTAIL's tail is shaped like a fish.\n"
   "It uses the tail to attract prey, then\n"
@@ -5031,7 +5031,7 @@ static const u8 DexDescription_Huntail_2[] = _(
   "ocean.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Gorebyss_1[] = _(
   "Although GOREBYSS is the very picture\n"
   "of elegance and beauty while swimming,\n"
@@ -5051,7 +5051,7 @@ static const u8 DexDescription_Gorebyss_2[] = _(
   "by ordinary attacks.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Relicanth_1[] = _(
   "RELICANTH is a rare species that was\n"
   "discovered in deep-sea explorations.\n"
@@ -5071,7 +5071,7 @@ static const u8 DexDescription_Relicanth_2[] = _(
   "toothless mouth.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Luvdisc_1[] = _(
   "LUVDISC's heart-shaped body is a\n"
   "symbol of love and romance.\n"
@@ -5089,7 +5089,7 @@ static const u8 DexDescription_Luvdisc_2[] = _(
   "ocean's waves.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Bagon_1[] = _(
   "BAGON harbors a never-ending dream of\n"
   "one day soaring high among the clouds.\n"
@@ -5109,7 +5109,7 @@ static const u8 DexDescription_Bagon_2[] = _(
   "steel.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Shelgon_1[] = _(
   "Covering SHELGON's body are outgrowths\n"
   "much like bones. The shell is very hard\n"
@@ -5127,7 +5127,7 @@ static const u8 DexDescription_Shelgon_2[] = _(
   "making its movements sluggish.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Salamence_1[] = _(
   "By evolving into SALAMENCE, this\n"
   "POKéMON finally realizes its long-held\n"
@@ -5147,7 +5147,7 @@ static const u8 DexDescription_Salamence_2[] = _(
   "sprout its magnificent wings.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Beldum_1[] = _(
   "BELDUM keeps itself floating by\n"
   "generating a magnetic force that\n"
@@ -5166,7 +5166,7 @@ static const u8 DexDescription_Beldum_2[] = _(
   "magnetism.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Metang_1[] = _(
   "When two BELDUM fuse together, METANG\n"
   "is formed. The brains of the BELDUM are\n"
@@ -5185,7 +5185,7 @@ static const u8 DexDescription_Metang_2[] = _(
   "psychokinetic power.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Metagross_1[] = _(
   "METAGROSS is the result of two METANG\n"
   "achieving fusion. When hunting, this\n"
@@ -5205,7 +5205,7 @@ static const u8 DexDescription_Metagross_2[] = _(
   "tucking in its four legs.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Regirock_1[] = _(
   "REGIROCK's body is composed entirely of\n"
   "rocks. Recently, a study made the\n"
@@ -5223,7 +5223,7 @@ static const u8 DexDescription_Regirock_2[] = _(
   "itself.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Regice_1[] = _(
   "REGICE cloaks itself with frigid air of\n"
   "negative 328 degrees F.\n"
@@ -5242,7 +5242,7 @@ static const u8 DexDescription_Regice_2[] = _(
   "minus 328 degrees F.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Registeel_1[] = _(
   "REGISTEEL was imprisoned by people\n"
   "in ancient times.\n"
@@ -5260,7 +5260,7 @@ static const u8 DexDescription_Registeel_2[] = _(
   "eats.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Latias_1[] = _(
   "LATIAS is highly intelligent and capable\n"
   "of understanding human speech.\n"
@@ -5279,7 +5279,7 @@ static const u8 DexDescription_Latias_2[] = _(
   "shrilly to intimidate the foe.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Latios_1[] = _(
   "LATIOS will only open its heart to a\n"
   "TRAINER with a compassionate spirit.\n"
@@ -5297,7 +5297,7 @@ static const u8 DexDescription_Latios_2[] = _(
   "understands human speech.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Kyogre_1[] = _(
   "KYOGRE is named in mythology as the\n"
   "POKéMON that expanded the sea by\n"
@@ -5316,7 +5316,7 @@ static const u8 DexDescription_Kyogre_2[] = _(
   "suffering from droughts.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Groudon_1[] = _(
   "GROUDON has the power to scatter rain\n"
   "clouds and make water evaporate with\n"
@@ -5334,7 +5334,7 @@ static const u8 DexDescription_Groudon_2[] = _(
   "cataclysmic battle with KYOGRE.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Rayquaza_1[] = _(
   "RAYQUAZA is said to have lived for\n"
   "hundreds of millions of years in the\n"
@@ -5353,7 +5353,7 @@ static const u8 DexDescription_Rayquaza_2[] = _(
   "and particles in the atmosphere.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Jirachi_1[] = _(
   "JIRACHI will awaken from its sleep of\n"
   "a thousand years if you sing to it in a\n"
@@ -5371,7 +5371,7 @@ static const u8 DexDescription_Jirachi_2[] = _(
   "fight without awakening.");
 #endif
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u8 DexDescription_Deoxys_1[] = _(
   "DEOXYS emerged from a virus that came\n"
   "from space. It is highly intelligent and\n"

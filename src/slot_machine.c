@@ -5479,7 +5479,7 @@ static const struct SpriteSheet gUnknown_083EDCDC = {
 
 static const u8 *const gUnknown_083EDCE4 = gUnknownPalette_08E997E8;
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u16 UnknownPalette_83EDCE8[] = INCBIN_U16("graphics/unknown/sapphire_83EDD40.gbapal");
 #elif defined(RUBY)
 static const u16 UnknownPalette_83EDCE8[] = INCBIN_U16("graphics/unknown/ruby_83EDCE8.gbapal");
@@ -5512,7 +5512,7 @@ static const u8 gUnknown_083EDD35[][2] = {
 };
 static const u8 gUnknown_083EDD3B[] = {1, 2, 2};
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 static const u16 Unknown_83EDD3E[] = INCBIN_U16("graphics/unknown/sapphire_83EDD96.gbapal");
 static const u16 Unknown_83EDD5E[] = INCBIN_U16("graphics/unknown/sapphire_83EDDB6.gbapal");
 static const u16 Unknown_83EDD7E[] = INCBIN_U16("graphics/unknown/sapphire_83EDDD6.gbapal");

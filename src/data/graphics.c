@@ -1164,7 +1164,7 @@ const u8 gUnknown_08E953D0[] = INCBIN_U8("graphics/unknown/unknown_E953D0.bin.lz
 const u8 gUnknown_08E954B0[] = INCBIN_U8("graphics/misc/wallclock_edit.bin.lz");
 const u8 gUnknown_08E95774[] = INCBIN_U8("graphics/misc/wallclock_view.bin.lz");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gUnknown_08E95A18[] = INCBIN_U8("graphics/slot_machine/sapphire.gbapal");
 #else
 const u8 gUnknown_08E95A18[] = INCBIN_U8("graphics/slot_machine/ruby.gbapal");
@@ -1195,13 +1195,13 @@ const u8 gBagScreenLabels_Tilemap[] = INCBIN_U8("graphics/interface/bag_screen_l
 const u16 gSlotMachineSpritePalette0[] = INCBIN_U16("graphics/slot_machine/spr0.gbapal");
 const u16 gSlotMachineSpritePalette1[] = INCBIN_U16("graphics/slot_machine/spr1.gbapal");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u16 gSlotMachineSpritePalette2[] = INCBIN_U16("graphics/slot_machine/spr2_sapphire.gbapal");
 #else
 const u16 gSlotMachineSpritePalette2[] = INCBIN_U16("graphics/slot_machine/spr2_ruby.gbapal");
 #endif // SAPPHIRE
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u16 gSlotMachineSpritePalette3[] = INCBIN_U16("graphics/slot_machine/spr3_sapphire.gbapal");
 #else
 const u16 gSlotMachineSpritePalette3[] = INCBIN_U16("graphics/slot_machine/spr3_ruby.gbapal");
@@ -1312,7 +1312,7 @@ const u8 gInterviewOutlineCursorTiles[] = INCBIN_U8("graphics/misc/interview_out
 const u8 gTitleScreenPressStart_Gfx[] = INCBIN_U8("graphics/title_screen/press_start.4bpp.lz");
 const u8 gTitleScreenLogoShinePalette[] = INCBIN_U8("graphics/title_screen/logo_shine.gbapal");
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 const u8 gUnknown_08E9D8CC[] = INCBIN_U8("graphics/title_screen/pokemon_sapphire.8bpp.lz");
 const u8 gVersionTiles[] = INCBIN_U8("graphics/title_screen/sapphireversion.8bpp.lz");
 const u16 gUnknown_08E9F624[] = INCBIN_U16("graphics/title_screen/logo_sapphire.gbapal");

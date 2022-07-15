@@ -482,7 +482,7 @@ static const u8 *ExpandPlaceholder_RivalName(void)
     X(EvilLegendary, Groudon, Kyogre)      \
     X(GoodLegendary, Kyogre,  Groudon)
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 #define X(ph, r, s) \
 static const u8 *ExpandPlaceholder_##ph(void) { return gExpandedPlaceholder_##s; }
 VERSION_DEPENDENT_PLACEHOLDER_LIST

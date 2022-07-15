@@ -1074,7 +1074,7 @@ static void Task_IntroLoadPart2Graphics(u8 taskId)
     FreeAllSpritePalettes();
     gUnknown_02039358 = 0;
     gUnknown_0203935A = 0;
-#ifdef SAPPHIRE
+#if SAPPHIRE
     load_intro_part2_graphics(0);
 #else
     load_intro_part2_graphics(1);
@@ -1091,7 +1091,7 @@ static void Task_IntroStartBikeRide(u8 taskId)
     else
         LoadCompressedObjectPic(gIntro2MaySpriteSheet);
     LoadCompressedObjectPic(gIntro2BicycleSpriteSheet);
-#ifdef SAPPHIRE
+#if SAPPHIRE
     LoadCompressedObjectPic(gIntro2LatiasSpriteSheet);
 #else
     LoadCompressedObjectPic(gIntro2LatiosSpriteSheet);
@@ -1104,7 +1104,7 @@ static void Task_IntroStartBikeRide(u8 taskId)
     gSprites[spriteId].callback = sub_813D788;
     gSprites[spriteId].anims = gUnknown_0840AE80;
     gTasks[taskId].data[1] = spriteId;
-#ifdef SAPPHIRE
+#if SAPPHIRE
     spriteId = intro_create_latias_sprite(-0x40, 0x3C);
 #else
     spriteId = intro_create_latios_sprite(-0x40, 0x3C);
@@ -1113,7 +1113,7 @@ static void Task_IntroStartBikeRide(u8 taskId)
     gTasks[taskId].data[2] = spriteId;
     BeginNormalPaletteFade(0xFFFFFFFF, 0, 16, 0, FADE_COLOR_WHITE);
     SetVBlankCallback(VBlankCB_Intro);
-#ifdef SAPPHIRE
+#if SAPPHIRE
     gTasks[taskId].data[0] = sub_8148EC0(0, 0x4000, 0x40, 0x10);
     sub_8148C78(0);
 #else
@@ -1152,7 +1152,7 @@ static void Task_IntroHandleBikeAndEonMovement(u8 taskId)
     gUnknown_0203935A = sine;
     if (gTasks[taskId].data[3] < 512)
         gTasks[taskId].data[3]++;
-#ifdef SAPPHIRE
+#if SAPPHIRE
     CycleSceneryPalette(0);
 #else
     CycleSceneryPalette(1);

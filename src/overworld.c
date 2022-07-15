@@ -50,7 +50,7 @@
 #include "tv.h"
 #include "wild_encounter.h"
 
-#ifdef SAPPHIRE
+#if SAPPHIRE
 #define LEGENDARY_MUSIC MUS_WEATHER_KYOGRE  // Heavy Rain
 #else
 #define LEGENDARY_MUSIC MUS_WEATHER_GROUDON // Drought
