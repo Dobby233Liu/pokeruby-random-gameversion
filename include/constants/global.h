@@ -41,7 +41,7 @@
 #elif defined(RUBY)
 #define GAME_VERSION (VERSION_RUBY)
 #endif
-#endif // defined(RANDOM_GAMEVERSION)
+#endif // defined(RANDOM_GAME)
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT   2
