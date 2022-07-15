@@ -32,11 +32,16 @@
 #define GAME_LANGUAGE (LANGUAGE_GERMAN)
 #endif
 
+#if defined(RANDOM_GAME)
+#include <random.h>
+#define GAME_VERSION Random() % (VERSION_RUBY + 1)
+#else
 #if defined(SAPPHIRE)
 #define GAME_VERSION (VERSION_SAPPHIRE)
 #elif defined(RUBY)
 #define GAME_VERSION (VERSION_RUBY)
 #endif
+#endif // defined(RANDOM_GAMEVERSION)
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT   2

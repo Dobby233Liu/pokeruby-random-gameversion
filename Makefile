@@ -147,7 +147,7 @@ endif
 
 #### Main Rules ####
 
-ALL_BUILDS := ruby ruby_debug ruby_rev1 ruby_rev2 sapphire sapphire_debug sapphire_rev1 sapphire_rev2 ruby_de ruby_de_debug ruby_de_rev1 sapphire_de sapphire_de_debug sapphire_de_rev1
+ALL_BUILDS := ruby ruby_debug ruby_rev1 ruby_rev2 sapphire sapphire_debug sapphire_rev1 sapphire_rev2 ruby_de ruby_de_debug ruby_de_rev1 sapphire_de sapphire_de_debug sapphire_de_rev1 random_game random_game_debug
 MODERN_BUILDS := $(ALL_BUILDS:%=%_modern)
 
 # Available targets
@@ -278,6 +278,8 @@ ruby_de_rev1:      ; @$(MAKE) GAME_VERSION=RUBY GAME_LANGUAGE=GERMAN GAME_REVISI
 sapphire_de:       ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN
 sapphire_de_debug: ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN DEBUG=1
 sapphire_de_rev1:  ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN GAME_REVISION=1
+random_game:              ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2
+random_game_debug:        ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2 DEBUG=1
 
 modern:                   ; @$(MAKE) GAME_VERSION=RUBY MODERN=1
 ruby_modern:              ; @$(MAKE) GAME_VERSION=RUBY MODERN=1
@@ -294,6 +296,8 @@ ruby_de_rev1_modern:      ; @$(MAKE) GAME_VERSION=RUBY GAME_LANGUAGE=GERMAN GAME
 sapphire_de_modern:       ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN MODERN=1
 sapphire_de_debug_modern: ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN DEBUG=1 MODERN=1
 sapphire_de_rev1_modern:  ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN GAME_REVISION=1 MODERN=1
+random_game_modern:              ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2 MODERN=1
+random_game_debug_modern:        ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2 DEBUG=1 MODERN=1
 
 compare_ruby:              ; @$(MAKE) GAME_VERSION=RUBY COMPARE=1
 compare_ruby_debug:        ; @$(MAKE) GAME_VERSION=RUBY DEBUG=1 COMPARE=1
@@ -309,6 +313,8 @@ compare_ruby_de_rev1:      ; @$(MAKE) GAME_VERSION=RUBY GAME_LANGUAGE=GERMAN GAM
 compare_sapphire_de:       ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN COMPARE=1
 compare_sapphire_de_debug: ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN DEBUG=1 COMPARE=1
 compare_sapphire_de_rev1:  ; @$(MAKE) GAME_VERSION=SAPPHIRE GAME_LANGUAGE=GERMAN GAME_REVISION=1 COMPARE=1
+compare_random_game:       ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2 COMPARE=1
+compare_random_game_debug: ; @$(MAKE) GAME_VERSION=RANDOM_GAME GAME_REVISION=2 DEBUG=1 COMPARE=1
 
 #### Graphics Rules ####
 
